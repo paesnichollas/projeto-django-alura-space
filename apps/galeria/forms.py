@@ -8,7 +8,7 @@ class FotografiaForms(forms.ModelForm):
         exclude = ['publicada',]
         labels = {
             'descricao':'Descrição',
-            'data_fotografia': 'Data de registro',
+            'data_fotografia': 'Data de Registro',
             'usuario': 'Usuário',
         }
     
